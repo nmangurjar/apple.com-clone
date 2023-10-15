@@ -1,0 +1,354 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+
+}
+#hero{
+    height: 100vh;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+    text-transform: capitalize;
+    height: 40px;
+    width: 100%;
+    background-color: #444;
+    
+
+}
+#nav a{
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+
+}#nav i{
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+
+}
+#nav2{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    background-color:white;
+
+}
+#nav2 h6{
+    font-size: 14px;
+    font-weight: 100;
+
+}
+#nav2 a{
+    color: royalblue;
+}
+#nav3{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 13%;
+}
+#text{
+    height: 60vh;
+    width: 75%;
+    background-image: url(https://www.apple.com/in/iphone-14-pro/images/key-features/hero/hero__cj6i78tzkp8i_large.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 13%;
+    top: 31%;
+
+}
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    position: absolute;
+    top: 1%;
+    left: 40%;
+}
+h2{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    top: 12%;
+    left: 45%;
+}
+#w{
+    color: royalblue;
+    display: flex;
+    gap: 20px;
+    font-weight: 100;
+    position: absolute;
+    top: 21%;
+    left: 44%;
+}
+#hero2{
+    position: relative;
+    height: 85vh;
+    width: 100%;
+     background-image: url(https://www.apple.com/in/home/heroes/iphone-14/images/hero_iphone14_yellow__eun20sn4imi6_largetall.jpg);
+     background-size: cover;
+     background-position: center;
+}
+#hero2 h1{
+    color: rgb(7, 7, 7);
+    font-size: 50px;
+    font-weight: 800;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%,0);
+    
+}
+#hero2 h2{
+    color: rgb(11, 11, 11);
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    transform: translate(-50%,0);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 2px;
+    
+}
+#hero2 #v{
+    color: royalblue;
+    display: flex;
+    gap: 20px;
+    font-weight: 50;
+    position: absolute;
+    top: 25%;
+    left: 44%;
+}
+#hero3{
+    position: absolute;
+    height: 85vh;
+    width: 100%;
+    background-image: url(https://www.apple.com/in/home/images/heroes/apple-watch-series-8/hero_apple_watch_series_8_spring__b1y8wb7xjc9y_large.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+ #hero3 h1{
+    position: absolute;
+    top: 3%;
+    left: 46%;
+    color:white;
+    font-size: 40px;
+    font-weight: 1000;
+    letter-spacing: 2px;
+}
+#hero3 i{ 
+    position: absolute;
+    top: 6.7%;
+    left: 43%;
+    font-size: 45px;
+    color: white;
+}
+#hero3 h3{
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%,0);
+    color: rgb(137, 22, 22);
+    font-size: 19px;
+    letter-spacing: 2px;
+}
+#hero3 #r{
+    color: royalblue;
+    display: flex;
+    font-weight: 50;
+    position: absolute;
+    top: 24%;
+    left: 48%;
+    font-size: 17px;
+}
+#hero3 #h{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+}
+#hero3 #s{
+    color: royalblue;
+    display: flex;
+    font-weight: 50;
+    position: absolute;
+    top: 24%;
+    left: 55%;
+    font-size: 17px;
+}
+#hero4 {
+    position:absolute;
+    top: 279%;
+    height: 82vh;
+    width: 100%;
+
+}
+#dc{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+#dc1{position: relative;
+    height: 78vh;
+    width: 49%;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/iphone-tradein/iphone_tradein_promo__d5au3rkw5kuq_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#dc2{position: relative;
+    height: 78vh;
+    width: 49%;
+   background-color: black;
+
+}
+#dc3{
+    height: 50%;
+    width: 70%;
+    background-image: url(https://developer.apple.com/wwdc23/images/hero-p1-b2hwz1/wwdc-p1-large_2x.webp);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 16%;
+    top: 13%;
+}
+#hero4 #dc1a{
+    position: absolute;
+    top: 19%;
+    left: 28%;
+    text-align: center;
+}
+#dc1a h3{
+    font-size: 23px;
+    font-weight: 200;
+}
+#dc1a h4{
+    color: royalblue;
+    font-size: 18px;
+    font-weight: 100;
+}
+#hero4 i{
+    font-size: 37px;
+    position: absolute;
+    left: 37%;
+    top:15%;
+}
+#hero4 h2 {
+    color: black;
+    position: absolute;
+    font-size: 40px;
+    font-weight: 600;
+    position: absolute;
+    top: 46px;
+    left: 42%;
+}
+#dc2c h4{
+    color: royalblue;
+    display: flex;
+    font-weight: 50;
+    position: absolute;
+    bottom: -190px;
+    left: 40%;
+    font-size: 17px;
+}
+#dc2c h3{
+    color: white;
+    position: absolute;
+    font-size: 22px;
+    font-weight: 200;
+    word-spacing: 2px;
+    position: absolute;
+    bottom: -150px;
+    left: 10%;
+    text-align: center;
+}
+#dc2c h1{
+    font-size: 45px;
+    position: absolute;
+   top: 95%;
+    left: 35%;
+}
+#dc2c i{
+    color: white;
+    font-size: 50px;
+    font-size: 37px;
+    position: absolute;
+    left: 27%;
+    top:108%;
+}
+#hero5{
+    height: 82vh;
+    width: 100%;
+    margin-top: 8px;
+    position: relative;
+}
+#hero5 #dc1{position: relative;
+    height: 78vh;
+    width: 49%;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/ipad/promo_ipad__fioegapg12qi_medium.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#hero5 #dc3{
+    height: 50%;
+    width: 70%;
+    background-image: url(https://www.apple.com/v/home/az/images/promos/macbook-pro-14-and-16/promo_mbp__ek7p477bkp6q_medium.jpg);
+    background-size: cover;
+    background-position:center;
+    position: absolute;
+    left: 16%;
+    top: 13%;
+}
+#hero5 #dc1a h3{
+    font-size: 23px;
+    font-weight: 50;
+}
+#dc2d h4{
+    color: royalblue;
+    display: flex;
+    font-weight: 50;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-size: 17px;
+}
+#dc2d h3{
+    color: white;
+    position: absolute;
+    font-size: 22px;
+    font-weight: 200;
+    word-spacing: 2px;
+    position: absolute;
+  top: 1%;
+    left: 14%;
+    text-align: center;
+}
+#dc2d h1{
+    font-size: 45px;
+    position: absolute;
+   top: -65px;
+    left: 26%;
+}
